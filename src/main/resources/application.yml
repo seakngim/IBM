@@ -1,1 +1,8 @@
-spring.application.name=data_presto
+spring:
+  application:
+    name: presto
+  datasource:
+    url: jdbc:presto://dfc14c37-9185-4336-95ac-f734b6bb62cd.co1u05ot0jqujbai8j2g.lakehouse.appdomain.cloud:31384/iceberg_data?SSL=true
+    username: ibmlhapikey
+    password: 8BTw1wttn0Vmcs8t8tRQailLGyAfYSs8Nl0aABQ4Y-i3
+    driver-class-name: com.facebook.presto.jdbc.PrestoDriver
